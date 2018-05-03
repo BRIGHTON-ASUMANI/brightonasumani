@@ -1,0 +1,9 @@
+.content {
+    max-width: 1160px;
+    margin: auto;
+    
+    padding: 10px;
+}
+.navbar-inverse{
+	background: #F15A29; 
+}
