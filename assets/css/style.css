@@ -1,17 +1,7 @@
 
-
-/*
-
-Author: Bootstrapthemes
-Author URI: http://bootstrapthemes.co
-
-*/
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 html,
 body {
-    background-color: white;
+    background-color: #1E2E3B;
     font-size: 15px;
     color: #565656;
     width: 100%;
@@ -25,76 +15,6 @@ body {
 /*==========================================
 PRE LOADER 
 ==========================================*/
-
-
-* {
-    box-sizing: border-box;
-}
-
-.zoom {
-    padding: 50px;
-    background-color: green;
-    transition: transform .2s;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-}
-
-.zoom:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
-}
-
-
-
-#missionMembers {
-    text-align: center;
-    margin: 0em 0em 0em 0em;
-    padding: 0em 0em 0em 0em;
-    vertical-align: middle;
-    font-size: 0;
-    display: block;
-}
-
-
-
-.container-fluid1{
-color: white;
-
-}
-
-
-.nospace {
-   font-size: 0;
-}
-
-
-
-.bounding-box {
-  background-image: url(...);
-  background-repeat: no-repeat;
-  background-size: contain;
-  box-shadow: 5px 10px 10px 5px #000000;
-  background-color: white;
-}
-.containt{
-  background-image: url(...);
-  background-repeat: no-repeat;
-  background-size: contain;
-  box-shadow: 5px 10px 10px 5px #000000;
-  background-color: white;
-}
-
-
-
-.content {
-    
-    margin: auto;
-    
-    
-} 
-}
 
 .preloader {
     position: fixed;
@@ -332,8 +252,6 @@ section .subtitle-half h5 {
     font-weight: 100;
     font-size: 17px;
 }
-
-
 /*
 section:nth-of-type(odd) {
     background-color: #F9F9F9;
@@ -446,7 +364,7 @@ Button
     background-color: #d6962c;
     border-color: #d6962c;
 }
-.btn {s
+.btn {
     margin-right: 15px;
     border-radius: 0px;
 }
@@ -461,7 +379,7 @@ Button
     width: 200px;
     border: 1px solid #fff;
     text-transform: none;
-    transition: .1s;
+    transition: .6s;
     margin-top: 30px;
     color: #fff;
 }
@@ -503,12 +421,12 @@ button.btn-lg:hover{
 
 .btn-default {
     color: #ffffff;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     background-color: transparent;
 }
 .btn-default:before,
 .btn-default:after {
-    background-color: #F15A29;
+    background-color: #ffffff;
 }
 .btn-default:focus {
     background-color: #ffffff;
@@ -516,15 +434,15 @@ button.btn-lg:hover{
 }
 .btn-default:hover {
     border-color: #ffffff;
-    color: #F15A29;
-    background-color: #F15A29;
+    color: #f56363;
+    background-color: #ffffff;
 }
 .btn-primary {
-    background-color: #F15A29;
-    color: #F15A29;
-    border: 1px solid #F15A29;
+    background-color: #E7A331;
+    color: #ffffff;
+    border: 2px solid #E7A331;
     text-transform: uppercase;
-	border-radius:1px;
+	border-radius:4px;
 }
 .btn-primary:before,
 .btn-primary:after {
@@ -535,8 +453,8 @@ button.btn-lg:hover{
     border-color: #d6962c;
 }
 .btn-primary:hover {
-    border-color: #F15A29;
-    color: #F15A29;
+    border-color: #d6962c;
+    color: #fff;
 }
 /*
 Extra height css
@@ -747,6 +665,80 @@ font-size: 6rem;
 	color:#fff;
 }
 
+
+
+
+
+
+h5.a { 
+    word-spacing:50px;
+}
+
+
+
+
+
+
+
+
+
+.content-center{
+    align-items:center; 
+}
+
+
+.container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .slider_overlay{
 	background:rgba(0, 0, 0, .6);
 	width:100%;
@@ -758,7 +750,7 @@ font-size: 6rem;
 /* Abouts Section css */
 
 .abouts{
-	 background-color: white;
+	 background: url(../images/abtbg.jpg) no-repeat center top scroll;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -779,22 +771,51 @@ font-size: 6rem;
 
 
 /* Features section css */
-	
+.features{
+	background:url(../images/ftbg.jpg) center center no-repeat;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	overflow: hidden;	
+}
 .main_features_content_area{
-	padding:0px 0px;
+	padding:120px 0px;
+	display:inline-block;
 }
 .main_features_content{
-	background:url(../images/foodsBg.jpg);
-	padding-left: :80px;
-    padding-right: 80px;
-    padding-bottom: 40px;
-    padding-top: 40px;
+	background:url(../images/ft.png) right center no-repeat;
+	padding:40px;
 	overflow:hidden;
 }
 
+.single_features_text{
+	background:url(../images/textbg.jpg) center center no-repeat;
+	padding:30px;
+        background-size:cover;
+}
 
 /* Portfolio Section css */
+.portfolio{
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	overflow: hidden;	
+}
 
+.portfolio_content{
+	padding-bottom:0px;
+	display:inline-block;
+}
+.portfolio .portfolio_content .head_title h3{
+	color:#000000;
+}
+.portfolio .portfolio_content .head_title h4{
+	color:#000000;
+}
 
 .head_title{
 	padding-top:100px;
@@ -813,151 +834,35 @@ font-size: 6rem;
 }
 
 .single_portfolio_text:hover .portfolio_images_overlay{
-	top: 28px;
-    left: 14px;
+	top: 0px;
+    left: 0px;
+    background-color: white;
 }
 
 .portfolio_images_overlay{
-	width: 90%;
-    height: 80%;
-    background: rgba(0, 0, 0, .5);
-    padding: 20px;
+	width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 0px;
     margin: 0 auto;
-    top:-100%;
-    left: 14px;
+    top: 100%;
+    left: 0px;
     position: absolute;
 	transition:.6s;
 }
 .portfolio_images_overlay h6{
 	text-transform:uppercase;
 	color:#fff;
+    font-weight: bold;
 	font-size:1.3125rem;
 	line-height:2rem;
+    font-family: 'Pacifico', cursive;
 }
 
-.portfolio_images_overlay p.product_price{
-	font-size:2.5725rem;
-	color:#fff;
-	line-height:3rem;
-}
-
-
-
-
-
-
-/*Amazing Deliceas Section css */
-.ourPakeg .main_pakeg_content .head_title h3{
-	color:#fff;
-	
-}
-.ourPakeg .main_pakeg_content .head_title h4{
-	color:#fff;
-	font-family: 'Pacifico', cursive;
-	font-size:1.875rem;
-}
-
-.ourPakeg{
-	background:url(../images/newsbg.jpg) no-repeat center top scroll;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
-  overflow: hidden;	
-  padding-bottom:120px;
-}
-
-.single_pakeg_one{
-	background:url(../images/newsone.jpg) left center no-repeat;
-	padding:30px;
-	overflow:hidden;
-	margin-top:60px;
-}
-.single_pakeg_two{
-	background:url(../images/newstwo.jpg) right center no-repeat;
-	padding:30px;	
-	overflow:hidden;
-	margin-top:60px;	
-	
-}
-.single_pakeg_three{
-	background:url(../images/newsthree.jpg) left center no-repeat;
-	padding:30px;	
-	overflow:hidden;
-	margin-top:60px;	
-	
-}
-
-.single_pakeg_text{
-	background:#fff;
-	padding:30px;
-	text-align:left;
-}
-
-.single_pakeg_text ul li{
-    background: url(../images/pkli.png) no-repeat left center;
-    padding: 15px 0px 15px 60px;
-    margin-top: 20px;
-	
-}
-
-/* Mobail Apps Section css */
-
-.mobailapps{
-	background:url(../images/appsbg.jpg) top center no-repeat scroll;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	width: 100%;
-	overflow: hidden;
-	position:relative;
-}
-
-.main_mobail_apps_content{
-    margin: 80px 0px;
-    color: #fff;
-    overflow: hidden;
-}
-
-.single_monail_apps_text{
-	margin-top:120px;
-}
-.single_monail_apps_text h4{
-	font-size:1.875rem;
-	margin-bottom:30px;
-}
-
-.single_monail_apps_text h1{
-    font-size: 5rem;
-    text-transform: uppercase;
-    color: #fff;
-    line-height: 5rem;
-
-}
-.single_monail_apps_text h1 span{
-	font-size:1.800rem;
-	color:#fff;
-	display:block;
-	
-}
-
-.single_monail_apps_text{
-    margin-left:-10px;
-}
-.single_monail_apps_text a{
-	margin-top:50px;
-	margin-left:10px;
-	display:inline-block;
-}
-.single_monail_apps_text a img{
-	max-width:90%;
-}
 
 /* Footer Section CSS */
 .footer_widget{
-	background:url(../images/subscribe.jpg) center top no-repeat scroll;
+	background:url(../images/footerbg.jpg) center top no-repeat scroll;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -1005,7 +910,7 @@ font-size: 6rem;
 	font-weight:600;
 }
 .footer{
-	background:#F15A29;
+	background:#000;
 }
 .footer .copyright p{
 	padding:25px;
